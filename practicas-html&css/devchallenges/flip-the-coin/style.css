@@ -94,6 +94,11 @@ be 180deg so that the tails side will always be opposite to heads.
     margin-bottom: 35px;
 }
 
+.shadow{
+    --spins: 20;
+    --rotation: 0deg;
+}
+
 .result{
     margin-bottom: 50px;
 }
