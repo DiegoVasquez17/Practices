@@ -14,54 +14,32 @@
 
     <title>Flip the coin | devChallenges.io</title>
 
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <!-- <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style> -->
   </head>
   <body>
-    
-    <h1 class="title">Flip the coin</h1>
-    <h3 class="instructions">Press the coin or the button to flip the coin</h3>
-    <div class="coin">
-      <div class="img-container">
-        <img class="heads" src="resources/heads.svg" alt="">
-        <img class="tails"src="resources/tails.svg" alt="">
+
+    <div class="main">
+      <h1 class="title">Flip the coin</h1>
+      <h3 class="instructions">Press the coin or the button to flip the coin</h3>
+      <div class="coin">
+        <div class="img-container">
+          <img class="heads" src="resources/heads.svg" alt="">
+          <img class="tails"src="resources/tails.svg" alt="">
+        </div>
+        <img class="shadow" src="resources/shadow.svg" alt="">      
       </div>
-      <img class="shadow" src="resources/shadow.svg" alt="">      
+
+      <h3 class="result">...</h3>
+      <input type="button" value="RANDOM" id="flip-button">      
     </div>
     
-    <h3 class="result">...</h3>
-    <input type="button" value="RANDOM" id="flip-button">
+
+
+
+
 
 
 
     <script src="script.js"></script>
 
-    <!-- <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
-    </div> -->
   </body>
 </html>
